@@ -1,12 +1,18 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        mp = defaultdict(int)
-        res = 0
+
+        if not len(nums):
+            return 0
+        if len(nums) == 1:
+            return 1
+        hashmap = {}
+        numset = set(nums)
+        nums.sort()
 
         for num in nums:
-            if not mp[num]:
-                mp[num] = mp[num - 1] + mp[num + 1] + 1
-                mp[num - mp[num - 1]] = mp[num]
-                mp[num + mp[num + 1]] = mp[num]
-                res = max(res, mp[num])
-        return res
+            if (num-1) in numset:
+                hashmap[num] = hashmap.get(num-1, 0) + 1
+            else:
+                hashmap[num] = 1
+
+        return(max(list(hashmap.values())))
