@@ -1,11 +1,1 @@
-# LeetCode
-
-This repository contains my solutions to LeetCode problems.
-
-Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
-
- ## Made by 
- - Tut: [GitHub](https://github.com/TutTrue) - [LinkedIn](https://www.linkedin.com/in/mahmoud-hamdy-8b6825245/)
- - Hüsam: [GitHub](https://github.com/husamahmud) - [LinkedIn](https://www.linkedin.com/in/husamahmud/)
-
- Happy coding! 🚀
+This repository contains solutions to coding problems I solve during my last three months of military service. The focus is on mastering fundamental topics such as arrays, hashing, stacks, queues, etc., while exploring key techniques like two pointers, sliding window, prefix sums, and more. Additionally, I delve into algorithms like sorting and searching, emphasizing not just implementation but also understanding how and why specific techniques or approaches are effective or suboptimal in different scenarios.
